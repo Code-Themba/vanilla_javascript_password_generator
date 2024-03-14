@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Generator | Vanilla JS</title>
+</head>
+<body>
+    <main>
+        <div id="generator">
+            <h1>Password Generator</h1>
+            <div class="output-group">
+                <p id="password-output" class="output"></p>
+                <button id="clipboard" class="clipboard">copy</button>
+            </div>
+            <div id="controls">
+                <div>
+                    <span>password length</span><input type="number" id="range" class="range" value="8" min="8" max="25">
+                </div>
+                <div>
+                    <span>include lowercase characters</span><input type="checkbox" id="lowercase">
+                </div>
+                <div>
+                    <span>include uppercase characters</span><input type="checkbox" id="uppercase">
+                </div>
+                <div>
+                    <span>include numbers</span><input type="checkbox" id="number">
+                </div>
+                <div>
+                    <span>include symbols</span><input type="checkbox" id="symbol">
+                </div>
+            </div>
+            <button id="generate-password" class="generate-password">Generate Password</button>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
