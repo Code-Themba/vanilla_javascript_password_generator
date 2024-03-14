@@ -49,10 +49,6 @@ p.output{
     color: black;
     font-weight: 600;
 }
-/* .output input[type="text"]{
-    border: none;
-    padding: 18px;
-} */
 
 .output-group button{
     position: absolute;
@@ -62,6 +58,8 @@ p.output{
     border: 1px solid #ccc;
     color: #fff;
     margin-left: 8px;
+    font-size: 1.1rem;
+    border-radius: 5px;
 }
 
 .output-group button:hover{
@@ -87,7 +85,7 @@ p.output{
 }
 
 #controls input[type="number"]{
-    width: 30px;
+    width: 40px;
 }
 
 .generate-password{
@@ -98,6 +96,7 @@ p.output{
     font-weight: 700;
     font-size: 1rem;
     transition: all 0.2s ease;
+    border-radius: 5px;
 }
 
 .generate-password:hover{
